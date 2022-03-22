@@ -34,7 +34,7 @@ body
     max-width:600px;
     
 }
-.heading-part h1:before{
+/* .heading-part h1:before{
     content : "";
     display:block;
     width:80px;
@@ -47,7 +47,7 @@ body
 
 
 
-}   
+}    */
 
 .heading-part h3
 {
