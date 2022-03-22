@@ -1,0 +1,254 @@
+body
+{
+    font-family: 'Poppins', sans-serif;
+    /* width: 100%; */
+    overflow-x: hidden !important;
+} 
+.container {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+}
+
+
+/* .profile-holder img
+{
+    height:100%;
+} */
+.navbar-nav a:hover 
+{
+    text-decoration: underline;
+
+}
+.heading-part
+{
+    margin-top:100px;
+    padding-right: 20px;
+    text-align: center;
+    
+}  
+.heading-part h1
+{
+    font-family: 'Ubuntu', sans-serif;
+    margin:auto;
+    position:relative;
+    max-width:600px;
+    
+}
+.heading-part h1:before{
+    content : "";
+    display:block;
+    width:80px;
+    height:2px;
+    background-color:goldenrod;
+    position: absolute;
+    left:0;
+    top:60%;
+    z-index:-2;
+
+
+
+}   
+
+.heading-part h3
+{
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.social-link a i
+{
+    color :teal;
+    font-size:x-large;
+}
+.social-link a i:hover 
+{
+    color:#35e888;
+} 
+
+.about-container 
+{
+    margin-top:100px;
+}
+.about-img img
+{
+    height:200px;
+}
+.about-title h3
+{
+    font-family: 'Karla', sans-serif;
+    font-family: 'Merriweather', serif;
+} 
+.about-title h1
+{
+    color:aqua;
+    font-family: 'Karla', sans-serif;
+    font-family: 'Merriweather', serif;
+
+}
+.about-detail h2
+{
+    color:#35e888;
+    font-family: 'Karla', sans-serif;
+    font-family: 'Merriweather', serif;
+
+} 
+.about-detail p
+{
+    font-family: 'Karla', sans-serif;
+} 
+.about-detail
+{
+    text-align : justify;
+} 
+.skills
+{
+    width:500px;
+    background-color: black;
+    box-shadow: 5px 5px 10px rgba(204, 200, 200, 0.2);
+    border-radius : 10px;
+    padding: 18px 20px;
+
+} 
+.skills .bar
+{
+    margin:20px 0;
+} 
+.skills .bar:first-child
+{
+    margin-top:0px;
+} 
+.skills .bar .information
+{
+    margin-bottom:5px;
+} 
+.skills .bar .information span
+{
+     font-size:17px;
+     font-weight:500;
+} 
+.skills .bar .progress-lines
+{   
+    position:relative;
+    height: 10px;
+    width:90%;
+    border-radius:10px;
+    background-color:rgb(218, 165, 32);
+    box-shadow:inset 0px 1px 1px rgba(0,0,0,05),
+                    0px 1px rgba(207, 135, 135, 0.8);
+} 
+.bar .progress-lines span
+{
+    height:100%;
+    width:80%;
+    position:absolute;
+    background-color:brown;
+    border-radius:10px;
+} 
+.progress-lines.html span
+{
+    width:90%;
+}
+.progress-lines.css span
+{
+    width:80%;
+}
+.progress-lines.bootstrap span
+{
+    width:75%;
+}
+.progress-lines.tailwind span
+{
+    width:60%;
+}
+.progress-lines.javascript span
+{
+    width:50%;
+}
+.progress-lines.react span
+{
+    width:40%;
+}
+.progress-lines.php span
+{
+    width:20%;
+} 
+
+.progress-lines.c-language span
+{
+    width:60%;
+}
+.progress-lines.cpp span
+{
+    width:75%;
+}
+.progress-lines.python span
+{
+    width:30%;
+}
+ 
+.bar .progress-lines span::before
+{
+    position:absolute;
+    content: "";
+    right:0;
+    top:-10px;
+    height:0;
+    width:0;
+    border:7px solid transparent;
+    border-bottom-width: 0px;
+    border-right-width:0px;
+    border-top-color:black;
+} 
+.bar .progress-lines span::after
+{
+    position:absolute;
+    right:0px;
+    top:-28px;
+    color:#fff;
+    font-size:12px;
+    font-weight:500;
+    background-color: black;
+    padding:1px 8px;
+    border-radius:3px;
+} 
+.progress-lines.html span::after
+{
+    content:"90%";
+}
+.progress-lines.css span::after
+{
+    content:"80%";
+}
+.progress-lines.bootstrap span::after
+{
+    content:"75%";
+}
+.progress-lines.tailwind span::after
+{
+    content:"60%";
+}
+.progress-lines.javascript span::after
+{
+    content:"50%";
+}
+.progress-lines.react span::after
+{
+    content:"40%";
+}
+.progress-lines.php span::after
+{
+    content:"20%";
+}
+
+.progress-lines.c-language span::after
+{
+    content:"60%";
+}
+.progress-lines.cpp span::after
+{
+    content:"75%";
+}
+.progress-lines.python span::after
+{
+    content:"30%";
+}
